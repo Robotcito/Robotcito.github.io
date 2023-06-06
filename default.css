@@ -1,0 +1,68 @@
+* {
+    /*Distancia entre los bordes de la pantalla*/
+    padding: 0px;
+    /*Distancia entre las etiquetas*/
+    margin: 0px;
+    box-sizing: border-box;
+    /*Investigar Box Sizing*/
+}
+
+body {
+    background-color: #535353;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: #ffffff
+}
+
+p {
+    margin-bottom: 14px;
+    text-align: justify;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.post #logo #h1 {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+#pricipalcontent {
+    text-align: center;
+    margin-left: 150px;
+}
+
+#outer {
+    text-align: center;
+    margin-left: 150px;
+    display: grid;
+    place-content: center;
+}
+
+.Perfil {
+    text-align: justify;
+}
+
+.Educacion {
+
+    float: left;
+}
+
+.Cursos {
+    float: right;
+
+}
+#footer{
+background-color:black;
+padding-bottom: 60px;
+text-align: center;
+}
